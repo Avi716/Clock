@@ -1,0 +1,105 @@
+
+ .analog-clock {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+ 
+}
+
+.analog-clock-face {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: cover;
+
+background-image: url("image/AVATAR.jpg");
+  position: absolute;
+}
+
+.analog-clock-seconds,
+.analog-clock-minutes,
+.analog-clock-hours {
+  width: 4px;
+  height: 50%;
+  
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform-origin:bottom;
+
+}
+
+.analog-clock-hours{
+  background-color: aliceblue;
+ 
+}
+
+.analog-clock-seconds {
+  width: 1px;
+  background-color: rgb(139, 202, 226);
+ 
+}
+
+.analog-clock-minutes {
+  width: 2px;
+  background-color: rgb(250, 250, 250);
+  
+}
+
+.analog-clock-container{
+  position: absolute;
+  padding-bottom: 30px;
+}
+.analog-clock-number {
+  position:relative;
+  top: 5%;
+  left: 100%;
+  color: rgb(255, 255, 255); 
+  font-size: 14px;
+  transform: translate(-50%, -50%);
+  font-display: 10;
+  
+}
+.analog-clock-number-0 {
+transform: translate(-53%, -54%) rotate(0deg);
+}
+.analog-clock-number-1 {
+transform: translate(-30%, -55%) rotate(0deg);
+}
+.analog-clock-number-2 {
+transform: translate(-14%, 50%) rotate(0deg);
+
+}
+
+.analog-clock-number-3 {
+transform: translate(-8%, 228%) rotate(0deg);
+}
+.analog-clock-number-4 {
+transform: translate(-14%, 380%) rotate(0deg);
+}
+.analog-clock-number-5 {
+transform: translate(-30%, 500%) rotate(0deg);
+
+}
+.analog-clock-number-6 {
+  transform: translate(-52%, 470%) rotate(0deg);
+  }
+  .analog-clock-number-7 {
+  transform: translate(-74%, 300%) rotate(0deg);
+  }
+  .analog-clock-number-8 {
+  transform: translate(-90%, -20%) rotate(0deg);
+  
+  }
+  .analog-clock-number-9 {
+      transform: translate(-97%, -370%) rotate(0deg);
+      }
+      .analog-clock-number-10 {
+      transform: translate(-90%, -750%) rotate(0deg);
+      }
+      .analog-clock-number-11 {
+      transform: translate(-75%, -1050%) rotate(0deg);
+      
+      }
+
